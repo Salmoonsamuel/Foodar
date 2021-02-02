@@ -1,0 +1,43 @@
+main {
+    text-align: center;
+}
+/* .main {
+    text-shadow: blue;
+} */
+img{
+    width: 15%;
+    border-radius: 30px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(rgb(223, 133, 110), rgb(7, 93, 128), rgb(255, 166, 0));
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    padding: 20px 0 15px 0;
+}
+forms > div {
+    display: inline-block;
+    border: solid;
+    margin: 5px 0 5px 70%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    display: block;
+    float: left;
+    margin: 10px 0 0 10em;
+}
+.item{
+    margin: 10px 0 5px 20em;
+    font-family: 'Courier New', Courier, monospace;
+}
+.submit{
+    padding-left: 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    border: solid;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <title>Register</title>
+</head>
+<body>
+    <header>
+        <div><img class="logo" src="/images/IMG_2063 2.jpg" alt="logo image"></div>
+        <hr>
+    </header>
+    <main>
+        <div class="container">
+              <h1><u>Register</u></h1>
+              <br>
+                  <p style="padding-left: 40%;">Please fill out the form below: </p>
+                  <hr>
+                  <br>
+            <div class="item">
+                <h2><u>Details:</u></h2>
+                <br>
+              <forms actions="https://formspree.io/f/xeqpnwlz" method="post">
+                    <div><label><input type="text" name="_replyto" placeholder="Email"></label></div>
+                    <br>
+                    <div><label><input type="password" name="password" placeholder="Password"/></label></div>
+                    <br>
+                    <div><label><input type="text" name="firstName" placeholder="First Name"/></label></div>  
+                    <br>
+                    <div><label><input type="text" name="lastName" placeholder="Last Name"/></label></div> 
+                    <br>
+                    <br>
+                    <hr>
+                    <h2><u>Address:</u></h2>   
+                    <br>
+                    <div><label for="address"></label>
+                         <input id="address" name="address-1" type="text" placeholder="Address"/>
+                    </div>
+                    <br>
+                    <div><label for="street"></label>
+                         <input id="street" name="address-2" type="text" placeholder="Street"/>
+                    </div>
+                    <br>
+                    <div><label for="city"></label>
+                         <input id="city" name="address-3" type="text" placeholder="city"/>
+                    </div>
+                    <br>
+                    <div><label for="zipcode"></label>
+                         <input id="zipcode" name="address-4" type="text" placeholder="Zipcode" maxlength="5"/>
+                    </div>
+                    <br>
+                    <hr>
+                    <div class="submit" ><label for="register"></label>
+                         <input id="submit" value="send" type="submit" placeholder="Register">
+                    </div>
+                    <hr>
+            </div>
+        </div>  
+    </main>
+</body>
+
+</html>
