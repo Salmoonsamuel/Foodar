@@ -37,7 +37,7 @@ span {
 .logo {
     margin-left: 2%;
 }
-.zipcode {
+#zipcode {
     display: flex;
     margin-left: 40%;
 }

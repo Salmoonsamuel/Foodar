@@ -5,28 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <title>Home</title>
+    
 </head>
 <body>
     <!-- <p style="text-align: center;">Banner Information</p> -->
     <header>
-            <div class="logo"> <img src="/images/IMG_2063 2.jpg" alt="logo image"></div>
+            <div class="logo"> <img src="IMG_2063 2.jpg" alt="logo image"></div>
             <div class="nav"><h2><a href="about.html"><u><span>Sign</span>-In / Register |</u></a></h2></div>
     </header>
     <main>
         <div class="container">
             <div>
-                <img src="/images/IMG_2088.jpg">
+                <img src="IMG_2088.jpg">
             </div>
             <div>
                 <h1>Find a driver near you!</h1>
                 <h4>Type in your zipcode below and click go! to find a driver near you:</h4>
             </div>
             <forms>
-                <div class="zipcode">
+                <!-- <div id="zipcode">
                     <div><label for="zipcode"></label>
-                        <input id="zipcode" name="address-4" type="text" placeholder="Zipcode" maxlength="5"/>
-                   </div>
-                   <button id="submit" name="submit" type="submit" value="submit">Go!</button>
+                        <input id="zipc" name="address-4" type="text" placeholder="Zipcode" />
+                   </div> -->
+                   <input id="zipc" type="text" placeholder="Zipcode" maxlength="5">
+                   <button onclick="register()">Go!</button>
+                   <p id="message">Check it Out!</p>
                 </div>
             </forms>
         </div>
@@ -46,6 +49,6 @@
             <P>Terms & Conditions</P>
         </div>
     </footer>
-    <script>src="function.js"</script>
+    <script> src="script.js"</script>
 </body>
 </html>
